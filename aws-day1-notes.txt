@@ -1,0 +1,65 @@
+AWS Solutions Architect Associate (SAA-C03)
+Day 1 Notes
+
+Date: 07-Oct-2026
+
+Repository Setup
+----------------
+✅ Created GitHub Repository
+✅ Created GitHub Codespace
+
+AWS CLI Setup
+-------------
+✅ Downloaded AWS CLI
+✅ Installed AWS CLI
+✅ Verified installation using:
+
+aws --version
+
+IAM Setup
+---------
+✅ Created IAM User
+User Name: codespace-user
+
+✅ Attached AdministratorAccess policy
+
+Access Keys
+-----------
+✅ Created Access Key
+✅ Created Secret Access Key
+
+AWS Configuration
+-----------------
+Configured using:
+
+aws configure
+
+Region: ap-south-1
+Output Format: json
+
+Verification
+------------
+Verified connection using:
+
+aws sts get-caller-identity
+
+Result:
+✅ Successfully connected to AWS account
+
+Concepts Learned
+----------------
+1. IAM User
+2. Access Key
+3. Secret Access Key
+4. AWS CLI
+5. AWS Region
+6. GitHub Codespaces
+7. AWS Authentication
+
+Next Steps
+----------
+1. Learn S3
+2. Create S3 Bucket
+3. Upload Files to S3
+4. Learn EC2
+5. Learn IAM Policies
